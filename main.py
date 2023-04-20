@@ -128,3 +128,102 @@ kapitał_13=(1+(inf_13 + oprocentowanie_kredytu)/1200)*kapitał_12-wysokość_ra
 pomniejszenie_kapitału_13=kapitał_12-kapitał_13
 print(f"Po trzynastym miesiącu Twoja pozostała kwota kredytu do spłaty to {kapitał_13} PLN,\nto o {pomniejszenie_kapitału_13} PLN mniej niż w poprzednim miesiącu")
 print()
+
+#Month nr 14
+
+inf_14=-0.292781442607648
+inf_14=float(inf_14)
+kapitał_14=(1+(inf_14 + oprocentowanie_kredytu)/1200)*kapitał_13-wysokość_raty
+pomniejszenie_kapitału_14=kapitał_13-kapitał_14
+print(f"Po czternastym miesiącu Twoja pozostała kwota kredytu do spłaty to {kapitał_14} PLN,\nto o {pomniejszenie_kapitału_14} PLN mniej niż w poprzednim miesiącu")
+print()
+
+#Month nr 15
+
+inf_15=2.48619659017508
+inf_15=float(inf_15)
+kapitał_15=(1+(inf_15 + oprocentowanie_kredytu)/1200)*kapitał_14-wysokość_raty
+pomniejszenie_kapitału_15=kapitał_14-kapitał_15
+print(f"Po piętnastym miesiącu Twoja pozostała kwota kredytu do spłaty to {kapitał_15} PLN,\nto o {pomniejszenie_kapitału_15} PLN mniej niż w poprzednim miesiącu")
+print()
+
+#Month nr 16
+
+inf_16=0.267110317834564
+inf_16=float(inf_16)
+kapitał_16=(1+(inf_16 + oprocentowanie_kredytu)/1200)*kapitał_15-wysokość_raty
+pomniejszenie_kapitału_16=kapitał_15-kapitał_16
+print(f"Po szesnastym miesiącu Twoja pozostała kwota kredytu do spłaty to {kapitał_16} PLN,\nto o {pomniejszenie_kapitału_16} PLN mniej niż w poprzednim miesiącu")
+print()
+
+#Month nr 17
+
+inf_17=1.41795267229799
+inf_17=float(inf_17)
+kapitał_17=(1+(inf_17 + oprocentowanie_kredytu)/1200)*kapitał_16-wysokość_raty
+pomniejszenie_kapitału_17=kapitał_16-kapitał_17
+print(f"Po siedemnastym miesiącu Twoja pozostała kwota kredytu do spłaty to {kapitał_17} PLN,\nto o {pomniejszenie_kapitału_17} PLN mniej niż w poprzednim miesiącu")
+print()
+
+#Month nr 18
+
+inf_18=1.05424326726375
+inf_18=float(inf_18)
+kapitał_18=(1+(inf_18 + oprocentowanie_kredytu)/1200)*kapitał_17-wysokość_raty
+pomniejszenie_kapitału_18=kapitał_17-kapitał_18
+print(f"Po osiemnastym miesiącu Twoja pozostała kwota kredytu do spłaty to {kapitał_18} PLN,\nto o {pomniejszenie_kapitału_18} PLN mniej niż w poprzednim miesiącu")
+print()
+
+#Month nr 19
+
+inf_19=1.4805201044812
+inf_19=float(inf_19)
+kapitał_19=(1+(inf_19 + oprocentowanie_kredytu)/1200)*kapitał_18-wysokość_raty
+pomniejszenie_kapitału_19=kapitał_18-kapitał_19
+print(f"Po dziewiętnastym miesiącu Twoja pozostała kwota kredytu do spłaty to {kapitał_19} PLN,\nto o {pomniejszenie_kapitału_19} PLN mniej niż w poprzednim miesiącu")
+print()
+
+#Month nr 20
+
+inf_20=1.57703524727525
+inf_20=float(inf_20)
+kapitał_20=(1+(inf_20 + oprocentowanie_kredytu)/1200)*kapitał_19-wysokość_raty
+pomniejszenie_kapitału_20=kapitał_19-kapitał_20
+print(f"Po dwudziestym miesiącu Twoja pozostała kwota kredytu do spłaty to {kapitał_20} PLN,\nto o {pomniejszenie_kapitału_20} PLN mniej niż w poprzednim miesiącu")
+print()
+
+#Month nr 21
+
+inf_21=-0.0774206903147018
+inf_21=float(inf_21)
+kapitał_21=(1+(inf_21 + oprocentowanie_kredytu)/1200)*kapitał_20-wysokość_raty
+pomniejszenie_kapitału_21=kapitał_20-kapitał_21
+print(f"Po dwudziestym pierwszym miesiącu Twoja pozostała kwota kredytu do spłaty to {kapitał_21} PLN,\nto o {pomniejszenie_kapitału_21} PLN mniej niż w poprzednim miesiącu")
+print()
+
+#Month nr 22
+
+inf_22=1.16573339872354
+inf_22=float(inf_22)
+kapitał_22=(1+(inf_22 + oprocentowanie_kredytu)/1200)*kapitał_21-wysokość_raty
+pomniejszenie_kapitału_22=kapitał_21-kapitał_22
+print(f"Po dwudziestym drugim miesiącu Twoja pozostała kwota kredytu do spłaty to {kapitał_22} PLN,\nto o {pomniejszenie_kapitału_22} PLN mniej niż w poprzednim miesiącu")
+print()
+
+#Month nr 23
+
+inf_23=-0.404186717638335
+inf_23=float(inf_23)
+kapitał_23=(1+(inf_23 + oprocentowanie_kredytu)/1200)*kapitał_22-wysokość_raty
+pomniejszenie_kapitału_23=kapitał_22-kapitał_23
+print(f"Po dwudziestym trzecim miesiącu Twoja pozostała kwota kredytu do spłaty to {kapitał_23} PLN,\nto o {pomniejszenie_kapitału_23} PLN mniej niż w poprzednim miesiącu")
+print()
+
+#Month nr 24
+
+inf_24=1.49970852083123
+inf_24=float(inf_24)
+kapitał_24=(1+(inf_24 + oprocentowanie_kredytu)/1200)*kapitał_23-wysokość_raty
+pomniejszenie_kapitału_24=kapitał_23-kapitał_24
+print(f"Po dwudziestym czwartym miesiącu Twoja pozostała kwota kredytu do spłaty to {kapitał_24} PLN,\nto o {pomniejszenie_kapitału_24} PLN mniej niż w poprzednim miesiącu")
+print()
